@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.card-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container {
+    background-color: sandybrown;
+    border: solid blue 3px;
+    width: 80%;
+}
+.container__header {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 3px;
+}
+.container-card {
+    text-align: center;
+}
+.container-card p{
+    padding-bottom: 10px;
+}
+.container-card hr{
+    height: 3px;
+    background-color: black;
+    width: 60%;
+    margin: auto;
+}
+.container__image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.container__image img {
+    padding: 20px;
+}
